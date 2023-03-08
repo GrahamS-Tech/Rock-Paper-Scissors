@@ -24,6 +24,7 @@ document
   });
 
 document.getElementById("new-game").addEventListener("click", function () {
+  winnerLabel.style.visibility = "hidden";
   document.getElementById("computer-happy-rock").style.visibility = "visible";
   document.getElementById("computer-happy-paper").style.visibility = "visible";
   document.getElementById("computer-happy-scissors").style.visibility =
@@ -70,21 +71,21 @@ function gamePlay(playerSelection) {
     case "computer":
       winnerLabel.textContent = "Computer wins!";
       computerOpponent.src = "Images/happy-" + computerSelection + ".png";
-      playerOpponent.src = "images/sad-" + playerSelection + ".png";
+      playerOpponent.src = "Images/sad-" + playerSelection + ".png";
       computerScore++;
       document.getElementById("computer-score").textContent = computerScore;
       break;
     case "player":
       winnerLabel.textContent = "You win!";
       computerOpponent.src = "Images/sad-" + computerSelection + ".png";
-      playerOpponent.src = "images/happy-" + playerSelection + ".png";
+      playerOpponent.src = "Images/happy-" + playerSelection + ".png";
       playerScore++;
       document.getElementById("player-score").textContent = playerScore;
       break;
     case "tie":
       winnerLabel.textContent = "Tie!";
       computerOpponent.src = "Images/sad-" + computerSelection + ".png";
-      playerOpponent.src = "images/sad-" + playerSelection + ".png";
+      playerOpponent.src = "Images/sad-" + playerSelection + ".png";
       break;
   }
 
