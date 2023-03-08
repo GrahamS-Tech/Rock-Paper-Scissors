@@ -1,0 +1,123 @@
+@font-face {
+  font-family: AlloyInk;
+  src: url("Assets/AlloyInk.ttf");
+}
+
+body {
+  width: 75%;
+  min-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: AlloyInk;
+}
+
+#page-header {
+  display: flex;
+  color: red;
+  font-size: 1rem;
+}
+
+#computer-score {
+  width: 25%;
+  text-align: center;
+}
+
+#page-title {
+  width: 50%;
+  text-align: center;
+}
+
+#player-score {
+  width: 25%;
+  text-align: center;
+}
+
+#game-board {
+  display: flex;
+  border: 2px solid darkslategrey;
+}
+
+#computer-side {
+  width: 25%;
+  text-align: center;
+}
+
+#game-mat {
+  width: 50%;
+  text-align: center;
+  position: relative;
+}
+
+#player-side {
+  width: 25%;
+  text-align: center;
+}
+
+#game-mat-img {
+  width: 100%;
+}
+
+.game-piece {
+  width: 55%;
+}
+
+#player-happy-rock {
+  cursor: pointer;
+}
+
+#player-happy-paper {
+  cursor: pointer;
+}
+
+#player-happy-scissors {
+  cursor: pointer;
+}
+
+#match-result {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 60%;
+}
+
+#winner-label {
+  color: white;
+  visibility: hidden;
+}
+
+#winner-images {
+  height: 50%;
+}
+
+#computer-opponent {
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  right: -60px;
+  z-index: 2;
+  visibility: hidden;
+}
+
+#explosion {
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  z-index: 1;
+  visibility: hidden;
+}
+
+#player-opponent {
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  left: -60px;
+  z-index: 2;
+  visibility: hidden;
+}
+
+#new-game {
+  color: white;
+  margin-top: 90px;
+  visibility: hidden;
+  cursor: pointer;
+}

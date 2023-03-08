@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="page-header">
+      <h1 id="computer-score">0</h1>
+      <h1 id="page-title">Rock-Paper-Scissors</h1>
+      <h1 id="player-score">0</h1>
+    </header>
+    <div id="game-board">
+      <div id="computer-side">
+        <h3>Computer</h3>
+        <img
+          class="game-piece"
+          id="computer-happy-rock"
+          src="Images\happy-rock.png"
+          alt=""
+        />
+        <img
+          class="game-piece"
+          id="computer-happy-paper"
+          src="Images\happy-paper.png"
+          alt=""
+        />
+        <img
+          class="game-piece"
+          id="computer-happy-scissors"
+          src="Images\happy-scissors.png"
+          alt=""
+        />
+      </div>
+      <div id="game-mat">
+        <img id="game-mat-img" src="Images\Wrestling-Mat.jpeg" alt="" />
+        <div id="match-result">
+          <h1 id="winner-label">Rock wins!</h1>
+          <div id="winner-images">
+            <img id="computer-opponent" src="" alt="" />
+            <img id="explosion" src="Images/explosion.png" alt="" />
+            <img id="player-opponent" src="" alt="" />
+          </div>
+          <h1 id="new-game" >New Game</h1>
+        </div>
+      </div>
+      <div id="player-side">
+        <h3>Choose your piece</h3>
+        <img
+          class="game-piece"
+          id="player-happy-rock"
+          src="Images\happy-rock.png"
+          alt=""
+        />
+        <img
+          class="game-piece"
+          id="player-happy-paper"
+          src="Images\happy-paper.png"
+          alt=""
+        />
+        <img
+          class="game-piece"
+          id="player-happy-scissors"
+          src="Images\happy-scissors.png"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+  <script src="code.js"></script>
+</html>
