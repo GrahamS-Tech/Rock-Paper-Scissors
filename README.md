@@ -2,7 +2,7 @@
 
 *A fun Rock-Paper-Scissors game written in pure JavaScript, HTML, and CSS*
 
-Play it [here](https://kendric84.github.io/Rock-Paper-Scissors/)
+Play it [here](https://GrahamS-Tech.github.io/Rock-Paper-Scissors/)
 
 ![App Screenshot](/Images/RPS-SS.png)
 
